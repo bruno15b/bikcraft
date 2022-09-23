@@ -1,0 +1,57 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+}
+
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+.botao {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #332200;
+  padding: 16px 32px;
+  background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.33;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.ponto-amarelo {
+  color: #ffbb00;
+}
+
+.fundo-branco {
+  background-color: white;
+}
