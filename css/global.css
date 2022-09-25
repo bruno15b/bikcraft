@@ -22,96 +22,100 @@ a {
   position: relative;
 }
 
+p,
 h1,
 h4,
 h3,
 h4,
-h5,
 a {
   margin: 0px;
   padding: 0px;
+}
+
+.font-ppns-1 {
+  font-size: 4rem;
+  line-height: 1.125;
+  font-weight: 600;
   font-family: Poppins;
 }
 
-h1 {
-  font-size: 4rem;
-  line-height: 1.12;
-  font-weight: 600;
-  padding-bottom: 32px;
-}
-
-h2 {
-  font-size: 1.5rem;
-  line-height: 1.33;
-  font-weight: 600;
-}
-
-h3 {
-  font-size: 2rem;
-  line-height: 1.25;
-  font-weight: 600;
-}
-
-h4 {
-  font-size: 1.125rem;
-  line-height: 1.35;
-  font-weight: 400;
-}
-
-h5 {
+.font-ppns-2 {
   font-size: 2.25rem;
   line-height: 1.33;
   font-weight: 600;
+  font-family: Poppins;
 }
 
-h6 {
-  font-size: 0.75rem;
-  line-height: 1.33;
-  font-weight: 600;
-}
-
-.ppns-2 {
+.font-ppns-3 {
   font-size: 1.125rem;
-  line-height: 2;
-  font-weight: 500;
+  line-height: 1.35;
+  font-weight: 400;
+  font-family: Poppins;
 }
 
-p {
-  margin: 0px;
-  padding: 0px;
+.font-ppns-4 {
+  font-weight: 400;
+}
+
+.font-ppns-4,
+.font-ppns-5 {
+  font-size: 1.125rem;
+  line-height: 1.35;
+  font-weight: 600;
+  font-family: Poppins;
+}
+
+.font-ppns-6 {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Poppins;
+}
+
+.font-ppns-7 {
+  font-size: 0.75rem;
+  line-height: 1.35;
+  font-weight: 400;
+  font-family: Poppins;
+}
+
+.rbot-txt-1 {
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 500;
   font-family: Roboto;
 }
-.h1-roboto {
+.rbot-txt-2,
+.rbot-txt-3 {
   font-size: 1.5rem;
-  line-height: 1.33;
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+.rbot-txt-2 {
   font-weight: 500;
+  letter-spacing: 0.015em;
   text-transform: uppercase;
   color: #b2b2b2;
 }
-.txt-0 {
-  font-size: 1.125;
+
+.rbot-txt-4 {
+  font-size: 1.25rem;
+  line-height: 1.25;
   font-weight: 500;
-  line-height: 1.33;
-}
-.txt-1 {
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
-.txt-2 {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
+  font-family: Roboto;
 }
 
-.txt-4 {
-  font-size: 1.125rem;
+.rbot-txt-5 {
+  font-size: 1rem;
+  line-height: 1.5;
   font-weight: 400;
-  line-height: 1.78;
+  font-family: Roboto;
 }
 
 .botao {
-  text-decoration: none;
+  display: inline-block;
   text-transform: uppercase;
   color: #332200;
   padding: 16px 32px;
@@ -121,7 +125,7 @@ p {
   font-size: 1.125rem;
   line-height: 1.33;
   max-width: max-content;
-  max-height: max-content;
+  font-family: Poppins;
 }
 
 .padd {
@@ -142,32 +146,25 @@ p {
 }
 
 @media (max-width: 1600px) {
-  h1 {
-    font-size: 3.5rem;
-    line-height: 1.12;
-  }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
   .botao {
     padding: 12px 24px;
     font-size: 1rem;
     line-height: 1.2;
   }
-
-  h1 {
+  .font-ppns-1 {
     font-size: 3rem;
   }
-
-  .txt-1 {
-    font-size: 1rem;
+  .rbot-txt-2,
+  .rbot-txt-3 {
+    font-size: 1.25rem;
   }
-
-  h3 {
+}
+@media (max-width: 1200px) {
+  .rbot-txt-4 {
     font-size: 1rem;
-  }
-  .txt-0 {
-    font-size: 0.8rem;
   }
 }
 
@@ -176,9 +173,14 @@ p {
     padding: 10px 20px;
     font-size: 0.8rem;
   }
-
-  h1 {
-    font-size: 2.5rem;
+  .font-ppns-1 {
+    font-size: 2rem;
+  }
+  .font-ppns-2 {
+    font-size: 1.75rem;
+  }
+  .rbot-txt-1 {
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 550px) {

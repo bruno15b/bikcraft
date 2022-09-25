@@ -5,10 +5,42 @@
 
 .container-rodape {
   padding-top: 60px;
+  padding-bottom: 60px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 3fr 5fr 4fr;
 }
 
 .direitos {
   grid-column: 1/-1;
+}
+
+.rodape .rbot-txt-2 {
+  color: white;
+  margin-bottom: 32px;
+}
+
+.contato li {
+  margin-bottom: 32px;
+}
+.lista-link {
+  margin-bottom: 20px;
+}
+.rodape img {
+  display: inline-block;
+  padding-right: 32px;
+}
+
+.contato li:not(:first-child, :last-child)::after {
+  content: "";
+  display: block;
+  max-width: 320px;
+  height: 2px;
+  background: #111111;
+  margin-top: 20px;
+}
+
+.rodape .direitos,
+.links a,
+.rodape li:not(:first-child) {
+  color: #9c9c9c;
 }

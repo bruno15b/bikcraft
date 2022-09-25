@@ -31,6 +31,7 @@
   position: absolute;
 }
 
-.depoimento h2 {
+.depoimento .font-ppns-5 {
   color: #664400;
+  font-family: Merriweather;
 }

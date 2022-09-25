@@ -2,8 +2,8 @@
   padding: 120px 60px;
 }
 
-.escolha-bikes h1 {
-  margin-bottom: 40px;
+.escolha-bikes h2 {
+  margin-bottom: 30px;
 }
 
 .bikes {
@@ -63,13 +63,8 @@
     gap: 20px;
     padding: 0px 40px;
   }
-  .bikes {
-    flex-wrap: wrap;
-  }
+
   .bikes img {
-    height: auto;
-    width: 100%;
-    object-fit: cover;
-    justify-self: center;
+    height: 400px;
   }
 }

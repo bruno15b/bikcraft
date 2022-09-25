@@ -29,10 +29,11 @@
   color: #ffbb00;
   margin-bottom: 150px;
   display: block;
+  font-family: Poppins;
 }
 
-.container-vantagens h4 {
-  padding-bottom: 32px;
+.container-vantagens h3 {
+  padding-bottom: 8px;
   position: relative;
 }
 .container-vantagens {
