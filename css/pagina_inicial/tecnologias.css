@@ -34,29 +34,20 @@
 
 .container-vantagens h3 {
   padding-bottom: 8px;
-  position: relative;
 }
 .container-vantagens {
   display: flex;
   gap: 50px;
 }
 
-.container-vantagens .motor-eletrico::before {
-  content: "";
-  position: absolute;
-  background: url("../../img/icones/eletrica.svg") no-repeat center;
-  height: 30px;
-  width: 32px;
-  top: -40px;
+.container-vantagens li {
+  position: relative;
 }
 
-.container-vantagens .rastreador::before {
-  content: "";
+.vantagens-icones {
   position: absolute;
-  background: url("../../img/icones/rastreador.svg") no-repeat center;
-  height: 30px;
-  width: 32px;
-  top: -40px;
+  top: -30px;
+  width: 24px;
 }
 
 span {

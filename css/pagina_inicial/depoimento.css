@@ -35,3 +35,21 @@
   color: #664400;
   font-family: Merriweather;
 }
+
+@media (max-width: 800px) {
+  .container-depoimento {
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .depoimento blockquote::before {
+    content: "“";
+    position: absolute;
+    left: 35px;
+  }
+  .depoimento blockquote {
+    font-family: Merriweather;
+    font-size: 1.75rem;
+  }
+}

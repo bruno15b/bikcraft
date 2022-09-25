@@ -11,7 +11,7 @@
   gap: 40px;
   max-width: 1800px;
   margin: 0px auto;
-  padding: 0px 120px;
+  padding: 0px 20px;
 }
 .container-bikes p {
   color: #595959;
@@ -66,5 +66,14 @@
 
   .bikes img {
     height: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .bikes {
+    flex-direction: column;
+  }
+  .bikes img {
+    height: 300px;
   }
 }

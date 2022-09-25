@@ -8,6 +8,7 @@
   padding-bottom: 60px;
   display: grid;
   grid-template-columns: 3fr 5fr 4fr;
+  gap: 30px;
 }
 
 .direitos {
@@ -43,4 +44,21 @@
 .links a,
 .rodape li:not(:first-child) {
   color: #9c9c9c;
+}
+
+@media (max-width: 800px) {
+  .container-rodape {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .logo-rodape {
+    grid-column: 1/-1;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container-rodape {
+    grid-template-columns: 1fr;
+  }
 }
