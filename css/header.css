@@ -5,16 +5,15 @@
   font-weight: 500;
   padding: 15px 20px;
 }
-.fundo-cabecalho {
+header {
   background: black;
 }
 .cabecalho {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1600px;
-  margin: 0px auto;
-  padding: 30px 220px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .menu {
@@ -22,29 +21,25 @@
   gap: 40px;
 }
 
-@media (max-width: 1400px) {
-  .cabecalho {
-    padding: 32px 110px;
-  }
-}
-
 @media (max-width: 1000px) {
   .menu a {
     font-size: 1rem;
-    padding: 15px 10px;
+    padding: 15px 15px;
   }
 }
 
 @media (max-width: 800px) {
   .cabecalho {
     flex-direction: column;
-    row-gap: 30px;
-  }
-  .menu {
-    gap: 15px;
+    row-gap: 60px;
   }
   .menu a {
-    padding: 15px 10px;
+    background-color: rgb(12, 12, 12);
+    border-radius: 5px;
+  }
+
+  .menu {
+    gap: 15px;
   }
 }
 
@@ -58,6 +53,5 @@
   }
   .menu a {
     font-size: 0.8rem;
-    padding: 15px 10px;
   }
 }

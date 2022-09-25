@@ -1,0 +1,75 @@
+.escolha-bikes {
+  padding: 120px 60px;
+}
+
+.escolha-bikes h1 {
+  margin-bottom: 40px;
+}
+
+.bikes {
+  display: flex;
+  gap: 40px;
+  max-width: 1800px;
+  margin: 0px auto;
+  padding: 0px 120px;
+}
+.container-bikes p {
+  color: #595959;
+}
+
+.bikes-info {
+  padding: 16px 20px;
+}
+
+.bikes-info h3 {
+  color: black;
+  position: relative;
+}
+
+.bikes-info h3::before {
+  content: "";
+  height: 8px;
+  width: 12px;
+  background: #ffbb00;
+  position: absolute;
+  left: -20px;
+  top: 16px;
+}
+
+.bikes img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .escolha-bikes {
+    padding: 60px 0px;
+  }
+  .bikes-info h3::before {
+    top: 9px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .bikes {
+    gap: 20px;
+    padding: 0px 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .bikes {
+    gap: 20px;
+    padding: 0px 40px;
+  }
+  .bikes {
+    flex-wrap: wrap;
+  }
+  .bikes img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    justify-self: center;
+  }
+}

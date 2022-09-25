@@ -3,20 +3,9 @@ body {
   padding: 0px;
 }
 
-h1,
-h2,
-h3,
-h4,
-a {
-  margin: 0px;
-  padding: 0px;
-  font-family: Poppins;
-}
-
-p {
-  margin: 0px;
-  padding: 0px;
-  font-family: Roboto;
+img {
+  max-width: 100%;
+  display: block;
 }
 
 ul,
@@ -30,7 +19,97 @@ a {
   text-decoration: none;
   padding: 0px;
   margin: 0px;
+  position: relative;
 }
+
+h1,
+h4,
+h3,
+h4,
+h5,
+a {
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.12;
+  font-weight: 600;
+  padding-bottom: 32px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.125rem;
+  line-height: 1.35;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 2.25rem;
+  line-height: 1.33;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 0.75rem;
+  line-height: 1.33;
+  font-weight: 600;
+}
+
+.ppns-2 {
+  font-size: 1.125rem;
+  line-height: 2;
+  font-weight: 500;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+}
+.h1-roboto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #b2b2b2;
+}
+.txt-0 {
+  font-size: 1.125;
+  font-weight: 500;
+  line-height: 1.33;
+}
+.txt-1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.txt-2 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.txt-4 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.78;
+}
+
 .botao {
   text-decoration: none;
   text-transform: uppercase;
@@ -41,11 +120,17 @@ a {
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 1.33;
+  max-width: max-content;
+  max-height: max-content;
 }
 
-img {
-  max-width: 100%;
-  display: block;
+.padd {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 
 .ponto-amarelo {
@@ -54,4 +139,47 @@ img {
 
 .fundo-branco {
   background-color: white;
+}
+
+@media (max-width: 1600px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.12;
+  }
+}
+
+@media (max-width: 1300px) {
+  .botao {
+    padding: 12px 24px;
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .txt-1 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+  .txt-0 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .botao {
+    padding: 10px 20px;
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 550px) {
 }

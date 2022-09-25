@@ -1,0 +1,33 @@
+.parceiros {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.parceiros h1 {
+  padding-bottom: 60px;
+}
+.parceiros ul {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 20px;
+}
+
+.parceiros li {
+  display: flex;
+  padding: 32px;
+  border-left: solid 1px #ededed;
+}
+
+.parceiros li:not(:nth-child(5), :nth-child(6), :nth-child(7), :nth-child(8)) {
+  border-bottom: solid 1px #ededed;
+}
+
+.parceiros li:nth-child(5),
+.parceiros li:nth-child(1) {
+  border-left: none;
+}
+
+.parceiros img {
+  margin: auto;
+}

@@ -1,0 +1,14 @@
+.rodape {
+  background-color: black;
+  color: white;
+}
+
+.container-rodape {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.direitos {
+  grid-column: 1/-1;
+}

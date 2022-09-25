@@ -1,0 +1,36 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ffbb00;
+}
+
+.depoimento img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.container-depoimento {
+  padding-bottom: 100px;
+  padding-left: 80px;
+  padding-right: 30px;
+  align-self: end;
+  position: relative;
+}
+.depoimento blockquote {
+  font-family: Merriweather;
+  font-size: 2.25rem;
+}
+
+.depoimento blockquote::before {
+  content: "“";
+  position: absolute;
+  left: 90px;
+}
+.depoimento blockquote::after {
+  content: "”";
+  position: absolute;
+}
+
+.depoimento h2 {
+  color: #664400;
+}

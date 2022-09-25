@@ -1,3 +1,9 @@
 @import url(./header.css);
 @import url(./pagina_inicial/introducao.css);
+@import url(./pagina_inicial/bicicletas.css);
+@import url(./pagina_inicial/tecnologias.css);
+@import url(./pagina_inicial/parceiros.css);
+@import url(./pagina_inicial/depoimento.css);
+@import url(./pagina_inicial/seguros.css);
 @import url(./global.css);
+@import url(./footer.css);

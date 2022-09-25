@@ -1,0 +1,81 @@
+.tecnologia-bg {
+  background-color: black;
+  box-shadow: inset 0 -80px white, inset 0 80px white;
+}
+
+.tecnologias {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.container-tecnologias {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.tecnologias p {
+  padding-bottom: 20px;
+  color: #b2b2b2;
+}
+
+.destaque-poppins {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: dashed;
+  color: #ffbb00;
+  margin-bottom: 150px;
+  display: block;
+}
+
+.container-vantagens h4 {
+  padding-bottom: 32px;
+  position: relative;
+}
+.container-vantagens {
+  display: flex;
+  gap: 50px;
+}
+
+.container-vantagens .motor-eletrico::before {
+  content: "";
+  position: absolute;
+  background: url("../../img/icones/eletrica.svg") no-repeat center;
+  height: 30px;
+  width: 32px;
+  top: -40px;
+}
+
+.container-vantagens .rastreador::before {
+  content: "";
+  position: absolute;
+  background: url("../../img/icones/rastreador.svg") no-repeat center;
+  height: 30px;
+  width: 32px;
+  top: -40px;
+}
+
+span {
+  position: relative;
+}
+.destaque-poppins::after {
+  content: "";
+  position: absolute;
+  width: 260px;
+  height: 4px;
+  top: 35px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffbb00;
+  color: #ffbb00;
+}
+
+.tecnologias img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: left;
+}
