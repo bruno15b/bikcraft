@@ -1,6 +1,6 @@
 .seguros {
-  background: #111111;
-  color: white;
+  background: var(--c3);
+  color: var(--c1);
   padding-top: 60px;
   padding-bottom: 120px;
 }
@@ -11,18 +11,24 @@
   justify-items: stretch;
 }
 .container-seguros h2 {
+  margin: 0px;
   grid-column: 1/-1;
   justify-self: start;
 }
 
 .prata .botao {
-  color: white;
-  background: #2e2e2e;
+  color: var(--c1);
+  background: var(--c4);
+}
+
+.prata .botao:hover {
+  color: (--c1);
+  background: #252525;
 }
 
 .ouro,
 .prata {
-  background-color: black;
+  background-color: var(--c2);
   padding: 32px 64px;
   display: grid;
   grid-template-columns: 1fr auto;
@@ -49,12 +55,12 @@
 
 .prata h3:not(.preco) {
   margin-bottom: 40px;
-  color: #9c9c9c;
+  color: var(--c8);
 }
 
 .ouro h3:not(.preco) {
   margin-bottom: 40px;
-  color: #ffbb00;
+  color: var(--p5);
 }
 
 .preco::before {
@@ -63,7 +69,7 @@
   font-size: 0.75rem;
   top: 70px;
   right: 65px;
-  color: #9c9c9c;
+  color: var(--c8);
 }
 .container-seguros li {
   position: relative;
@@ -75,7 +81,7 @@
   font-size: 0.75rem;
   top: 6px;
   left: -20px;
-  color: #9c9c9c;
+  color: var(--c8);
   background: url("../../img/icones/lista.svg");
   width: 13px;
   height: 9px;

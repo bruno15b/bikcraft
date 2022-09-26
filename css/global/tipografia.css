@@ -1,13 +1,3 @@
-body {
-  margin: 0px;
-  padding: 0px;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
 ul,
 li {
   margin: 0px;
@@ -30,6 +20,7 @@ h4,
 a {
   margin: 0px;
   padding: 0px;
+  color: inherit;
 }
 
 .font-ppns-1 {
@@ -40,8 +31,8 @@ a {
 }
 
 .font-ppns-2 {
-  font-size: 2.25rem;
-  line-height: 1.33;
+  font-size: 2rem;
+  line-height: 1.25;
   font-weight: 600;
   font-family: Poppins;
 }
@@ -97,7 +88,7 @@ a {
   font-weight: 500;
   letter-spacing: 0.015em;
   text-transform: uppercase;
-  color: #b2b2b2;
+  color: var(--c8);
 }
 
 .rbot-txt-4 {
@@ -114,45 +105,13 @@ a {
   font-family: Roboto;
 }
 
-.botao {
-  display: inline-block;
-  text-transform: uppercase;
-  color: #332200;
-  padding: 16px 32px;
-  background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
-  border-radius: 5px;
-  font-weight: 600;
-  font-size: 1.125rem;
-  line-height: 1.33;
-  max-width: max-content;
-  font-family: Poppins;
-}
-
-.padd {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  box-sizing: border-box;
-}
-
-.ponto-amarelo {
-  color: #ffbb00;
-}
-
-.fundo-branco {
-  background-color: white;
-}
-
-@media (max-width: 1600px) {
-}
-
 @media (max-width: 1200px) {
-  .botao {
-    padding: 12px 24px;
+  .font-ppns-2 {
+    font-size: 1.75rem;
+  }
+
+  .rbot-txt-4 {
     font-size: 1rem;
-    line-height: 1.2;
   }
   .font-ppns-1 {
     font-size: 3rem;
@@ -162,12 +121,6 @@ a {
     font-size: 1.25rem;
   }
 }
-@media (max-width: 1200px) {
-  .rbot-txt-4 {
-    font-size: 1rem;
-  }
-}
-
 @media (max-width: 800px) {
   .botao {
     padding: 10px 20px;

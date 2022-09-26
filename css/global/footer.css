@@ -1,6 +1,6 @@
 .rodape {
-  background-color: black;
-  color: white;
+  background-color: var(--c2);
+  color: var(--c1);
 }
 
 .container-rodape {
@@ -16,7 +16,7 @@
 }
 
 .rodape .rbot-txt-2 {
-  color: white;
+  color: var(--c1);
   margin-bottom: 32px;
 }
 
@@ -36,14 +36,14 @@
   display: block;
   max-width: 320px;
   height: 2px;
-  background: #111111;
+  background: var(--c3);
   margin-top: 20px;
 }
 
 .rodape .direitos,
 .links a,
 .rodape li:not(:first-child) {
-  color: #9c9c9c;
+  color: var(--c8);
 }
 
 @media (max-width: 800px) {

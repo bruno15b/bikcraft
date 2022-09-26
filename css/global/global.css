@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 5px;
+}
+
+.background-site {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.botao {
+  display: inline-block;
+  text-transform: uppercase;
+  color: var(--p1);
+  padding: 16px 32px;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.33;
+  max-width: max-content;
+  font-family: Poppins;
+  height: fit-content;
+}
+
+.botao:hover {
+  background: #dd970b;
+}
+
+.ponto-amarelo {
+  color: var(--p5);
+}
+
+@media (max-width: 1200px) {
+  .botao {
+    padding: 12px 24px;
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 800px) {
+  .botao {
+    padding: 10px 20px;
+    font-size: 0.8rem;
+  }
+}

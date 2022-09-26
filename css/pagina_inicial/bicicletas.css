@@ -1,9 +1,10 @@
 .escolha-bikes {
-  padding: 120px 60px;
+  padding: 60px 60px 120px 60px;
 }
 
 .escolha-bikes h2 {
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .bikes {
@@ -14,26 +15,29 @@
   padding: 0px 20px;
 }
 .container-bikes p {
-  color: #595959;
-}
-
-.bikes-info {
-  padding: 16px 20px;
+  color: var(--c6);
+  padding-left: 23px;
+  padding-top: 10px;
 }
 
 .bikes-info h3 {
-  color: black;
-  position: relative;
+  padding-top: 10px;
+  color: var(--c2);
 }
 
 .bikes-info h3::before {
   content: "";
+  display: inline-block;
   height: 8px;
   width: 12px;
-  background: #ffbb00;
-  position: absolute;
-  left: -20px;
-  top: 16px;
+  background: var(--p5);
+  margin-bottom: 6px;
+  margin-right: 10px;
+  transition: width 0.3s;
+}
+
+.bikes a:hover h3::before {
+  width: 20px;
 }
 
 .bikes img {
@@ -44,7 +48,7 @@
 
 @media (max-width: 1200px) {
   .escolha-bikes {
-    padding: 60px 0px;
+    padding: 40px 0px;
   }
   .bikes-info h3::before {
     top: 9px;
@@ -54,7 +58,7 @@
 @media (max-width: 1100px) {
   .bikes {
     gap: 20px;
-    padding: 0px 60px;
+    padding: 0px 20px;
   }
 }
 
@@ -66,6 +70,9 @@
 
   .bikes img {
     height: 400px;
+  }
+  .bikes {
+    flex-direction: column;
   }
 }
 

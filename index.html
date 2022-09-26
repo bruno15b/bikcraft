@@ -8,22 +8,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
   <title>Bikcraft</title>
 </head>
 
 <body>
   <header>
-    <div class="cabecalho padd">
-      <img src="./img/bikcraft.svg" alt="">
-      <nav>
+    <div class="cabecalho background-site">
+      <a href="./"><img src="./img/bikcraft.svg" alt=""></a>
+      <nav aria-label="menu-header">
         <ul class="menu">
           <li><a href="">Bicicletas</a></li>
           <li><a href="">Seguros</a></li>
@@ -33,8 +27,8 @@
     </div>
   </header>
 
-  <main class="fundo-preto_m_branca">
-    <div class="introducao padd">
+  <main>
+    <div class="introducao background-site">
       <div class="introducao-texto">
         <h2 class="font-ppns-1">Bicicletas feitas
           sob medida<span class="ponto-amarelo">.</span></h2>
@@ -43,19 +37,19 @@
 
       </div>
       <div>
-        <img src="./img/fotos/introducao.jpg" alt="">
+        <img src="./img/fotos/introducao.jpg" alt="bicileta preta">
       </div>
     </div>
   </main>
 
 
-  <section class="escolha-bikes">
-    <h2 class="font-ppns-1 padd">escolha a sua<span class="ponto-amarelo">.</span></h2>
+  <article class="escolha-bikes">
+    <h2 class="font-ppns-1 background-site">escolha a sua<span class="ponto-amarelo">.</span></h2>
     <ul class="bikes">
 
       <li>
         <a class="container-bikes" href="">
-          <img src="./img/bicicletas/magic-home.jpg" alt="">
+          <img src="./img/bicicletas/magic-home.jpg" alt="foto bicicleta">
           <div class="bikes-info">
             <h3 class="font-ppns-2">Magic Might</h3>
             <p class="rbot-txt-4">R$ 2499</p>
@@ -64,27 +58,27 @@
       </li>
       <li>
         <a class="container-bikes" href="">
-          <img src="./img/bicicletas/nimbus-home.jpg" alt="">
+          <img src="./img/bicicletas/nimbus-home.jpg" alt="foto bicicleta">
           <div class="bikes-info">
-            <h3 class="font-ppns-2">Magic Might</h3>
-            <p class="rbot-txt-4">R$ 2499</p>
+            <h3 class="font-ppns-2">Nimbus Stark</h3>
+            <p class="rbot-txt-4">R$ 4999</p>
           </div>
         </a>
       </li>
       <li>
         <a class="container-bikes" href="">
-          <img src="./img/bicicletas/nebula-home.jpg" alt="">
+          <img src="./img/bicicletas/nebula-home.jpg" alt="foto bicicleta">
           <div class="bikes-info">
-            <h3 class="font-ppns-2">Magic Might</h3>
-            <p class="rbot-txt-4">R$ 2499</p>
+            <h3 class="font-ppns-2">Nebula Cosmic</h3>
+            <p class="rbot-txt-4">R$ 3499</p>
           </div>
         </a>
       </li>
     </ul>
-  </section>
+  </article>
 
-  <section class="tecnologia-bg">
-    <div class="tecnologias padd">
+  <article class="tecnologia-bg">
+    <div class="tecnologias background-site">
       <div class="container-tecnologias">
         <p class="rbot-txt-2 ">Tecnologia Avançada</p>
         <h2 class="font-ppns-1">você escolhe as suas cores e componentes<span class="ponto-amarelo">.</span></h2>
@@ -106,12 +100,12 @@
           </ul>
         </div>
       </div>
-      <div><img src="./img/fotos/tecnologia.jpg" alt=""></div>
+      <div class="foto-ferramentas""><img src=" ./img/fotos/tecnologia.jpg" alt="ferramentas"></div>
     </div>
-  </section>
+  </article>
 
-  <section class="parceiros ">
-    <h2 class="font-ppns-1 padd">nossos parceiros<span class="ponto-amarelo">.</span></h2>
+  <section class="parceiros" aria-label="parceiros bikcraft">
+    <h2 class="font-ppns-1 background-site">nossos parceiros<span class="ponto-amarelo">.</span></h2>
     <ul>
       <li>
         <img src="./img/parceiros/caravan.svg" alt="">
@@ -140,7 +134,7 @@
     </ul>
   </section>
 
-  <section class="depoimento">
+  <section class="depoimento" aria-label="depoimento usuario">
 
     <div><img src="./img/fotos/depoimento.jpg" alt=""></div>
     <div class="container-depoimento">
@@ -149,8 +143,8 @@
     </div>
   </section>
 
-  <section class="seguros">
-    <div class="container-seguros padd">
+  <article class="seguros">
+    <div class="container-seguros background-site">
 
       <h2 class="font-ppns-1">seguros<span class="ponto-amarelo">.</span></h2>
 
@@ -200,10 +194,10 @@
         <a class="botao" href="">INSCREVA-SE</a>
       </div>
     </div>
-  </section>
+  </article>
 
   <footer class="rodape">
-    <div class="container-rodape padd">
+    <div class="container-rodape background-site">
       <div class="logo-rodape">
         <img src="./img/bikcraft.svg" alt="">
       </div>

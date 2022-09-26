@@ -16,11 +16,11 @@
 .parceiros li {
   display: flex;
   padding: 32px;
-  border-left: solid 1px #ededed;
+  border-left: solid 1px var(--c12);
 }
 
 .parceiros li:not(:nth-child(5), :nth-child(6), :nth-child(7), :nth-child(8)) {
-  border-bottom: solid 1px #ededed;
+  border-bottom: solid 1px var(--c12);
 }
 
 .parceiros li:nth-child(5),
@@ -43,6 +43,6 @@
   }
 
   .parceiros li:not(:nth-child(7), :nth-child(8)) {
-    border-bottom: solid 1px #ededed;
+    border-bottom: solid 1px var(--c12);
   }
 }

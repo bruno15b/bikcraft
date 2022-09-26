@@ -1,10 +1,10 @@
 .tecnologia-bg {
-  background-color: black;
-  box-shadow: inset 0 -80px white, inset 0 80px white;
+  background-color: var(--c2);
+  box-shadow: inset 0 -80px var(--c1), inset 0 80px var(--c1);
 }
 
 .tecnologias {
-  color: white;
+  color: var(--c1);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
@@ -17,7 +17,7 @@
 
 .tecnologias p {
   padding-bottom: 20px;
-  color: #b2b2b2;
+  color: var(--c9);
 }
 
 .destaque-poppins {
@@ -25,11 +25,25 @@
   line-height: 1.5;
   font-weight: 600;
   text-transform: uppercase;
-  text-decoration: dashed;
-  color: #ffbb00;
+  color: var(--p5);
   margin-bottom: 150px;
   display: block;
   font-family: Poppins;
+}
+
+.destaque-poppins::after {
+  content: "";
+  position: absolute;
+  width: 260px;
+  height: 4px;
+  top: 35px;
+  left: 0px;
+  z-index: 1;
+  background-color: currentColor;
+}
+
+.destaque-poppins:hover {
+  color: var(--c1);
 }
 
 .container-vantagens h3 {
@@ -53,21 +67,32 @@
 span {
   position: relative;
 }
-.destaque-poppins::after {
-  content: "";
-  position: absolute;
-  width: 260px;
-  height: 4px;
-  top: 35px;
-  left: 0px;
-  z-index: 1;
-  background-color: #ffbb00;
-  color: #ffbb00;
-}
-
 .tecnologias img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: left;
+}
+@media (max-width: 800px) {
+  .tecnologias {
+    color: var(--c1);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .tecnologia-bg {
+    box-shadow: none;
+  }
+
+  .foto-ferramentas {
+    display: none;
+  }
+  .container-tecnologias {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .destaque-poppins {
+    margin-bottom: 120px;
+  }
 }

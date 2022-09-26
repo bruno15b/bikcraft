@@ -1,13 +1,7 @@
-.menu a {
-  color: white;
-  font-size: 1.125rem;
-  font-family: Poppins;
-  font-weight: 500;
-  padding: 15px 20px;
-}
 header {
-  background: black;
+  background: var(--c2);
 }
+
 .cabecalho {
   display: flex;
   justify-content: space-between;
@@ -19,6 +13,32 @@ header {
 .menu {
   display: flex;
   gap: 40px;
+}
+
+.menu a {
+  display: inline-block;
+  font-size: 1.125rem;
+  font-family: Poppins;
+  font-weight: 500;
+  padding: 15px 0px;
+  position: relative;
+  color: var(--c1);
+}
+
+.menu a::after {
+  display: block;
+  content: "";
+  width: 0px;
+  height: 3px;
+  margin-top: 5px;
+  position: absolute;
+  display: block;
+  background-color: var(--c1);
+  transition: 0.3s;
+}
+
+.menu a:hover::after {
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -34,12 +54,16 @@ header {
     row-gap: 60px;
   }
   .menu a {
-    background-color: rgb(12, 12, 12);
+    background-color: var(--c3);
     border-radius: 5px;
   }
 
   .menu {
     gap: 15px;
+  }
+
+  .menu a::after {
+    display: none;
   }
 }
 
