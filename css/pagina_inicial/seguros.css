@@ -1,5 +1,4 @@
 .seguros {
-  background: var(--c3);
   color: var(--c1);
   padding-top: 60px;
   padding-bottom: 120px;
@@ -44,7 +43,7 @@
   grid-row: 1/4;
   grid-column: 2/-1;
 }
-.container-seguros p {
+.container-seguros li {
   padding-bottom: 20px;
 }
 
@@ -117,7 +116,7 @@
     right: 60px;
   }
 
-  .container-seguros p {
+  .container-seguros li {
     padding-bottom: 10px;
   }
 

@@ -1,0 +1,89 @@
+.lista-bicicletas {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.lista-bicicletas .container-biciletas:nth-child(1) {
+  padding-bottom: 60px;
+}
+
+.lista-bicicletas .container-biciletas:nth-child(3) {
+  margin-top: 60px;
+}
+
+.lista-bicicletas .black-bg {
+  padding-top: 60px;
+  background: linear-gradient(to right, var(--c1) 30%, var(--c3) 0);
+}
+
+.container-biciletas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.imagem-produto {
+  position: relative;
+}
+
+.imagem-produto img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.imagem-produto span {
+  position: absolute;
+  right: 0px;
+  top: 28px;
+  background: var(--c2);
+  padding: 8px 16px 8px 8px;
+  border-radius: 5px 0px 0px 5px;
+}
+.bicicletas-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.bicicletas-texto {
+  grid-column: 1/-1;
+}
+
+.bicicletas-texto h2 {
+  padding-top: 16px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.bicicletas-texto h2::before {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 8px;
+  background: var(--p5);
+  top: 0px;
+}
+
+.container-biciletas li p {
+  display: inline-block;
+  margin-left: 8px;
+  padding-bottom: 16px;
+}
+
+.bicicletas-vantagens img {
+  width: 24px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+}
+
+.bicicletas-info a {
+  align-self: end;
+  justify-self: end;
+}
+.bicicletas-info a img {
+  display: inline-block;
+}
+.bicicletas-info a p {
+  display: inline-block;
+}

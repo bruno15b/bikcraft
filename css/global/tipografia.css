@@ -14,6 +14,7 @@ a {
 
 p,
 h1,
+h2,
 h4,
 h3,
 h4,
@@ -44,16 +45,21 @@ a {
   font-family: Poppins;
 }
 
-.font-ppns-4 {
-  font-weight: 400;
-}
-
+.font-ppns-8,
 .font-ppns-4,
 .font-ppns-5 {
   font-size: 1.125rem;
   line-height: 1.35;
   font-weight: 600;
   font-family: Poppins;
+}
+
+.font-ppns-4 {
+  font-weight: 400;
+}
+
+.font-ppns-8 {
+  font-weight: 500;
 }
 
 .font-ppns-6 {
@@ -74,14 +80,14 @@ a {
   font-size: 2rem;
   line-height: 1.25;
   font-weight: 500;
-  font-family: Roboto;
+  font-family: "Roboto";
 }
 .rbot-txt-2,
 .rbot-txt-3 {
   font-size: 1.5rem;
   line-height: 1.25;
   font-weight: 400;
-  font-family: Roboto;
+  font-family: "Roboto";
 }
 
 .rbot-txt-2 {
@@ -95,14 +101,19 @@ a {
   font-size: 1.25rem;
   line-height: 1.25;
   font-weight: 500;
-  font-family: Roboto;
+  font-family: "Roboto";
 }
 
+.rbot-txt-6,
 .rbot-txt-5 {
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
-  font-family: Roboto;
+  font-family: roboto;
+}
+
+.rbot-txt-6 {
+  font-weight: 500;
 }
 
 @media (max-width: 1200px) {

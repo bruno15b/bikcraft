@@ -41,8 +41,17 @@ img[src$=".jpg"] {
   background: #dd970b;
 }
 
-.ponto-amarelo {
+.ponto {
   color: var(--p5);
+}
+
+.black-bg {
+  background-color: var(--c3);
+}
+
+.titulo-main {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media (max-width: 1200px) {
