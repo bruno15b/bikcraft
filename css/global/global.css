@@ -64,7 +64,12 @@ img[src$=".jpg"] {
 
 @media (max-width: 800px) {
   .botao {
-    padding: 10px 20px;
     font-size: 0.8rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .titulo-main {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }

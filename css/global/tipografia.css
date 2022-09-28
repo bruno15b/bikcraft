@@ -69,11 +69,15 @@ a {
   font-family: Poppins;
 }
 
+.font-ppns-9,
 .font-ppns-7 {
   font-size: 0.75rem;
   line-height: 1.35;
   font-weight: 400;
   font-family: Poppins;
+}
+.font-ppns-9 {
+  font-weight: 500;
 }
 
 .rbot-txt-1 {
@@ -120,7 +124,7 @@ a {
   .font-ppns-2 {
     font-size: 1.75rem;
   }
-
+  .font-ppns-8,
   .rbot-txt-4 {
     font-size: 1rem;
   }

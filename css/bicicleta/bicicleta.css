@@ -1,0 +1,141 @@
+.bicicleta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 60px;
+  align-items: start;
+}
+
+.bicicleta-fotos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bicicleta-fotos img:first-child {
+  min-width: 100%;
+}
+
+.bicicleta-fotos img {
+  min-width: 200px;
+  flex: 1;
+}
+
+.bicicleta-introducao {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  grid-template-rows: 1fr auto;
+  gap: 32px 12px;
+  padding-bottom: 40px;
+}
+
+.bicicleta-introducao .botao {
+  align-self: center;
+}
+
+.bicicleta-introducao p {
+  grid-column: 1/-1;
+}
+
+.bicicleta-introducao img {
+  display: inline-block;
+}
+
+.side-box {
+  display: grid;
+  align-content: space-between;
+  align-items: center;
+}
+
+.side-info {
+  display: flex;
+  padding: 4px;
+  background-color: var(--c2);
+  border-radius: 5px;
+  width: max-content;
+  gap: 10px;
+}
+
+.side-info span {
+  padding-left: 8px;
+}
+.bicicleta-info h2 {
+  text-transform: uppercase;
+  padding-bottom: 12px;
+}
+
+.bicicleta-info h3 {
+  padding-bottom: 8px;
+  color: var(--c1);
+}
+
+.bicicleta-info ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  background-color: var(--c2);
+  padding: 32px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.bicicleta h2 {
+  padding-bottom: 8px;
+}
+
+.bicicleta-info img {
+  width: 24px;
+  padding-bottom: 8px;
+}
+
+.bicicleta-fichatec {
+  background-color: var(--c2);
+  padding: 32px;
+  border-radius: 5px;
+}
+
+.bicicleta-fichatec li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bicicleta-fichatec li:not(:last-child) {
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--c3);
+}
+
+.bicicleta-fichatec li:not(:first-child) {
+  padding-top: 6px;
+}
+
+.ficha-tecnica span:first-child {
+  color: var(--c10);
+}
+
+.ficha-tecnica span:nth-child(2) {
+  color: var(--c8);
+}
+
+@media (max-width: 1200px) {
+  .side-info {
+    padding: 2px;
+  }
+}
+
+@media (max-width: 800px) {
+  .bicicleta {
+    grid-template-columns: 1fr;
+  }
+
+  .bicicleta-fotos img:not(:first-child) {
+    display: none;
+  }
+  .bicicleta-fotos {
+    display: inline-block;
+    justify-self: center;
+    max-width: 90%;
+  }
+  #nimbus .bikes img {
+    height: auto;
+  }
+}

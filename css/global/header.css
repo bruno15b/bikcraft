@@ -67,7 +67,7 @@ header {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
   .cabecalho {
     flex-direction: column;
     row-gap: 30px;

@@ -46,6 +46,23 @@
   color: var(--c8);
 }
 
+.links a:hover {
+  color: var(--c1);
+}
+
+.itens-contato p {
+  padding-bottom: 10px;
+}
+
+.itens-contato a {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.itens-contato a:hover {
+  color: var(--c1);
+}
+
 @media (max-width: 800px) {
   .container-rodape {
     grid-template-columns: 1fr 1fr;

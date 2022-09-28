@@ -1,11 +1,14 @@
 @import url(./pagina_inicial/introducao.css);
-@import url(./pagina_inicial/bicicletas.css);
+@import url(./bicicletas/bicicletas.css);
 @import url(./pagina_inicial/tecnologias.css);
 @import url(./pagina_inicial/parceiros.css);
 @import url(./pagina_inicial/depoimento.css);
-@import url(./pagina_inicial/seguros.css);
+@import url(./seguros/seguros.css);
 
 @import url(./bicicletas/lista-bikes.css);
+
+@import url(./bicicleta/bicicleta.css);
+@import url(./bicicleta/seguro.css);
 
 @import url(./global/header.css);
 @import url(./global/footer.css);
