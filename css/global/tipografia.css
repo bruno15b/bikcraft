@@ -18,7 +18,8 @@ h2,
 h4,
 h3,
 h4,
-a {
+a,
+dd {
   margin: 0px;
   padding: 0px;
   color: inherit;
@@ -78,6 +79,13 @@ a {
 }
 .font-ppns-9 {
   font-weight: 500;
+}
+
+.font-ppns-10 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Poppins;
 }
 
 .rbot-txt-1 {
@@ -149,5 +157,15 @@ a {
   }
   .rbot-txt-1 {
     font-size: 1.5rem;
+  }
+  .rbot-txt-2,
+  .rbot-txt-3 {
+    font-size: 1rem;
+  }
+  .font-ppns-10 {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: Poppins;
   }
 }

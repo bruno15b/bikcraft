@@ -1,0 +1,45 @@
+.seguros-bg {
+  background: var(--c2);
+}
+
+.vantagens h2 {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+.vantagens ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px 60px;
+  padding-bottom: 120px;
+}
+
+.vantagens h3 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.vantagens img {
+  height: 24px;
+}
+
+@media (max-width: 800px) {
+  .vantagens ul {
+    grid-template-columns: 1fr 1fr;
+  }
+  #seguros .titulo-main {
+    padding-bottom: 0px;
+  }
+
+  #seguros .seguros {
+    padding-top: 0px;
+  }
+
+  .vantagens h2 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .vantagens ul {
+    padding-bottom: 60px;
+  }
+}
