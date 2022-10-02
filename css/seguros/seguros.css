@@ -111,8 +111,8 @@
     top: 104px;
     right: 90px;
   }
-  .prata .preco::before {
-    top: 104px;
+  .prata::before,
+  .preco::before {
     right: 60px;
   }
 

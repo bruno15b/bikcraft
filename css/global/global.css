@@ -21,6 +21,15 @@ img[src$=".jpg"] {
   box-sizing: border-box;
 }
 
+.titulo-bg {
+  background: var(--c3);
+  box-shadow: inset 0 -120px var(--c1);
+}
+
+.black-bg {
+  background-color: var(--c3);
+}
+
 .botao {
   display: inline-block;
   text-transform: uppercase;
@@ -45,10 +54,6 @@ img[src$=".jpg"] {
 
 .ponto {
   color: var(--p5);
-}
-
-.black-bg {
-  background-color: var(--c3);
 }
 
 .titulo-main {

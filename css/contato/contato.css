@@ -1,7 +1,3 @@
-.contato-bg {
-  background: var(--c3);
-  box-shadow: inset 0 -120px var(--c1);
-}
 .contato-page {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -54,10 +50,8 @@
   grid-column: 1/-1;
 }
 
-.contato-form textarea[type="text"],
-.contato-form input[type="text"],
-.contato-form input[type="email"],
-.contato-form input[type="tel"] {
+.contato-form textarea,
+.contato-form input {
   box-sizing: border-box;
   width: 100%;
   margin-top: 4px;
@@ -66,14 +60,12 @@
   background-color: var(--c13);
   font-family: Roboto;
   font-size: 1rem;
-  font-weight: 400px;
+  font-weight: 400;
   padding: 12px;
 }
 
-.contato-form textarea[type="text"]:focus,
-.contato-form input[type="text"]:focus,
-.contato-form input[type="email"]:focus,
-.contato-form input[type="tel"]:focus {
+.contato-form textarea:focus,
+.contato-form input:focus {
   outline: none;
   border-color: var(--p5);
   background: var(--c1);
