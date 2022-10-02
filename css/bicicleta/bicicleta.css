@@ -132,7 +132,9 @@
     justify-self: center;
     max-width: 90%;
   }
-  #nimbus .bikes img {
+  #nimbus .bikes img,
+  #magic .bikes img,
+  #nebula .bikes img {
     height: auto;
   }
 }

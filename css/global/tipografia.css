@@ -32,11 +32,16 @@ dd {
   font-family: Poppins;
 }
 
+.font-ppns-12,
 .font-ppns-2 {
   font-size: 2rem;
   line-height: 1.25;
   font-weight: 600;
   font-family: Poppins;
+}
+
+.font-ppns-12 {
+  font-size: 1.5rem;
 }
 
 .font-ppns-3 {

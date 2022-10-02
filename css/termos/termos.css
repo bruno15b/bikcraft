@@ -1,0 +1,21 @@
+.termos ul {
+  padding: 120px 0px;
+}
+
+.termos li:not(:last-child) {
+  padding-bottom: 48px;
+}
+
+.termos h3 {
+  padding-bottom: 16px;
+}
+
+.termos li p:not(:last-child) {
+  padding-bottom: 16px;
+}
+
+@media (max-width: 800px) {
+  .termos ul {
+    padding: 60px 0px;
+  }
+}
