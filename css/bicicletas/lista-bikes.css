@@ -114,8 +114,7 @@
 
 @media (max-width: 500px) {
   .bicicletas-info {
-    display: grid;
     grid-template-columns: 1fr;
-    gap: 0px;
+    gap: 20px;
   }
 }

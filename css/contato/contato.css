@@ -1,0 +1,105 @@
+.contato-bg {
+  background: var(--c3);
+  box-shadow: inset 0 -120px var(--c1);
+}
+.contato-page {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 60px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.loja-online {
+  padding: 60px;
+  background: var(--c2);
+  border-radius: 5px 0 0 5px;
+}
+
+.loja-online h3 {
+  padding-bottom: 60px;
+}
+
+.loja-online div {
+  padding-bottom: 32px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.loja-online div {
+  padding-bottom: 30px;
+}
+
+.img-loja {
+  position: absolute;
+  left: 0px;
+}
+
+.loja-online a img {
+  display: inline-block;
+  padding-top: 30px;
+  padding-right: 32px;
+}
+.contato-form {
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background: var(--c1);
+  border-radius: 0 5px 5px 0;
+}
+
+.email,
+.msg {
+  grid-column: 1/-1;
+}
+
+.contato-form textarea[type="text"],
+.contato-form input[type="text"],
+.contato-form input[type="email"],
+.contato-form input[type="tel"] {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 4px;
+  border-radius: 5px;
+  border: 1px solid var(--c12);
+  background-color: var(--c13);
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 400px;
+  padding: 12px;
+}
+
+.contato-form textarea[type="text"]:focus,
+.contato-form input[type="text"]:focus,
+.contato-form input[type="email"]:focus,
+.contato-form input[type="tel"]:focus {
+  outline: none;
+  border-color: var(--p5);
+  background: var(--c1);
+  box-shadow: 0 0 0 2px #fea;
+}
+
+#numero,
+#email {
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .contato-page {
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+  .contato-page {
+    grid-template-columns: 1fr;
+  }
+  .loja-online {
+    padding: 30px;
+    border-radius: 5px 5px 0 0;
+  }
+  .contato-form {
+    padding: 30px;
+    grid-template-columns: 1fr;
+    border-radius: 0 0 5px 5px;
+  }
+}

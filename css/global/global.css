@@ -35,6 +35,8 @@ img[src$=".jpg"] {
   max-width: max-content;
   font-family: Poppins;
   height: fit-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {

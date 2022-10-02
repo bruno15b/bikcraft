@@ -13,6 +13,9 @@
 @import url(./seguros/vantagens.css);
 @import url(./seguros/perguntas.css);
 
+@import url(./contato/contato.css);
+@import url(./contato/locais.css);
+
 @import url(./global/header.css);
 @import url(./global/footer.css);
 
