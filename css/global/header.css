@@ -37,15 +37,9 @@ header {
   transition: 0.3s;
 }
 
-.menu a:hover::after {
+.menu a:hover::after,
+.menu a.ativo::after {
   width: 100%;
-}
-
-@media (max-width: 1000px) {
-  .menu a {
-    font-size: 1rem;
-    padding: 15px 15px;
-  }
 }
 
 @media (max-width: 800px) {
@@ -56,6 +50,8 @@ header {
   .menu a {
     background-color: var(--c3);
     border-radius: 5px;
+    font-size: 1rem;
+    padding: 15px 15px;
   }
 
   .menu {

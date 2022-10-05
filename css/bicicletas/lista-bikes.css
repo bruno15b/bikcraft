@@ -20,6 +20,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  background: url("../../img/dec/top-right.svg") no-repeat top right;
 }
 
 .imagem-produto {
@@ -100,6 +101,7 @@
 @media (max-width: 1000px) {
   .container-biciletas {
     grid-template-columns: 1fr;
+    background: none;
   }
 
   .lista-bicicletas .black-bg {

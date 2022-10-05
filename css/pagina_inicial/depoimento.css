@@ -1,7 +1,8 @@
 .depoimento {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: var(--p5);
+  background: var(--p5) url("../../img/dec/bottom-right-p.svg") no-repeat bottom
+    40px right 40px;
 }
 
 .depoimento img {
@@ -37,6 +38,11 @@
   font-family: Merriweather;
 }
 
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
+}
 @media (max-width: 800px) {
   .container-depoimento {
     padding-bottom: 60px;

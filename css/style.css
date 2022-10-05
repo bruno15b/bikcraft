@@ -20,6 +20,8 @@
 
 @import url(./orcamento/orcamento.css);
 
+@import url(./global/animacao.css);
+
 @import url(./global/header.css);
 @import url(./global/footer.css);
 

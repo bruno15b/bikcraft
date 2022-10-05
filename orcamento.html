@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -10,7 +8,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preload" href="./css/style.css" as="style">
   <title>Bikcraft | Orçamento</title>
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body id="orcamento">
@@ -31,7 +31,7 @@
     <div class="black-bg">
       <div class="titulo-main background-site">
         <p class="rbot-txt-2">COTAÇÕES NO SEU EMAIL</p>
-        <h1 class="font-ppns-1 c1">solicite um orçamento.<span class="ponto">.</span></h1>
+        <h1 class="font-ppns-1 c1">solicite um orçamento<span class="ponto">.</span></h1>
       </div>
     </div>
     <div class="background-site">
@@ -82,9 +82,9 @@
           <div class="orcamento-conteudo" id="orcamento-seg">
             <h2>Escolha o Plano:</h2>
             <input type="radio" name="produto" value="prata" id="prata">
-            <label for="prata">R$ 199</label>
+            <label for="prata">PRATA <span>R$ 199</span></label>
             <input type="radio" name="produto" value="ouro" id="ouro">
-            <label for="ouro">R$ 299</label>
+            <label for="ouro">OURO <span>R$ 299</span></label>
           </div>
         </div>
 
@@ -216,6 +216,7 @@
     </div>
   </footer>
 
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

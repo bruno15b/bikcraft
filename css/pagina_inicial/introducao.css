@@ -1,4 +1,6 @@
 .introducao {
+  background: url("../../img/dec/bottom-left.svg") no-repeat bottom 160px left
+    40px;
   box-shadow: inset 0 -120px var(--c1);
 }
 

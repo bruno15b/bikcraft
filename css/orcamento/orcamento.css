@@ -96,7 +96,8 @@ select:focus {
 }
 .orcamento {
   padding: 60px;
-  background: var(--c2);
+  background: var(--c2) url("../../img/dec/bottom-left.svg") no-repeat bottom
+    20px left 20px;
   border-radius: 5px 0 0 5px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -228,6 +229,7 @@ select:focus {
   .orcamento {
     padding: 30px;
     border-radius: 5px 5px 0 0;
+    background: var(--c2);
   }
 }
 

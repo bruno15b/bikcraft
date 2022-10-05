@@ -7,15 +7,26 @@
   padding-bottom: 120px;
 }
 
-.perguntas dt {
-  padding-bottom: 16px;
+.perguntas button {
   position: relative;
   padding-right: 40px;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
 }
 
 .perguntas dd {
   max-width: 700px;
   padding-right: 40px;
+  padding-top: 16px;
+}
+
+.js .perguntas dd {
+  display: none;
+}
+.js .perguntas dd.ativo {
+  display: block;
 }
 
 .perguntas div {
@@ -24,17 +35,17 @@
   padding-right: 6px;
 }
 
-.perguntas dt:before {
+.perguntas button:before {
   content: "";
   width: 12px;
   height: 8px;
   background: var(--p5);
   position: absolute;
-  top: 8px;
+  top: 9px;
   left: -18px;
 }
 
-.perguntas dt::after {
+.perguntas button::after {
   content: "";
   width: 14px;
   height: 6px;
@@ -46,7 +57,8 @@
   transition: 0.3s;
 }
 
-.perguntas dt:hover::after {
+.perguntas button:hover::after,
+.perguntas button[aria-expanded="true"]::after {
   transform: rotate(180deg);
 }
 
